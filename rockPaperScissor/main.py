@@ -9,7 +9,7 @@ while true == True:
         again = str(input('Try again?[Y / N] ')).upper()
         if again == 'N':
             true = False
-        elif again == 'Y':
+        elif again == 'Y': 
             aleatorio = random.choice(choice)
             play = str(input('ROCK, PAPER, SCISSORS? ')).upper()
     elif play == 'PAPER' and aleatorio == 'ROCK':
